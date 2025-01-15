@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" id="search" placeholder="Search for a city..." spellcheck="false">
+            <button class="button">Get started</button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="wheather">
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" class="wheather-icon">
+            <h1 class="temp">22 °C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4814/4814268.png" alt="humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3104/3104614.png">
+                    <div>
+                        <p class="speed">15 Km/h</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
